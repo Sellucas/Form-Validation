@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Create Account</h1>
+        </header>
+        <hr>
+        <!-- Username-Input -->
+        <form id="form" class="form">
+            <div class="form-control">
+                <label for="username">Username</label>
+                <input type="text" placeholder="anabeatriz" id="username" />
+                <small>Error message</small>
+            </div>
+        <!-- Email-Input -->
+            <div class="form-control">
+                <label for="username">Email</label>
+                <input type="email" placeholder="anabeatriz@gmail.com" id="email" />
+                <small>Error message</small>
+            </div>
+        <!-- Password-Input -->
+            <div class="form-control">
+                <label for="username">Password</label>
+                <input type="password" placeholder="Password" id="password" />
+                <small>Error message</small>
+            </div>
+        <!-- PasswordCheck-Input -->
+            <div class="form-control">
+                <label for="username">Password-check</label>
+                <input type="password" placeholder="Password" id="password2" />
+                <small>Error message</small>
+            </div>
+            <button>Submit</button>
+        </form>
+    </div>
+    <script src="ambient.js"></script>
+</body>
+
+</html>
